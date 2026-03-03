@@ -1,0 +1,48 @@
+ 1023  git checkout main
+ 1024  git checkout -b "conflict2"
+ 1025  gti branch
+ 1026  git branch
+ 1027  git add .
+ 1028  git commit -m "conflict2"
+ 1029  git push origin conflict2
+ 1030  git pull origin main
+ 1031  git branch
+ 1032  git checkout main
+ 1033  git checkout "main"
+ 1034  git pull origin main
+ 1035  git add .
+ 1036  git commit -m "added git ignore"
+ 1037  git status
+ 1038  git push origin main
+ 1002  cd ~
+ 1003  cd Desktop
+ 1004  mkdir codify
+ 1005  cd codify
+ 1006  mkdir education
+ 1007  cd education
+ 1008  pwd
+ 1009  mkdir bash-assignment
+ 1010  cd bash-assignment
+ 1011  touch README.md
+ 1012  touch meaning-of-life.txt
+ 1013  ls
+ 1014  mv meaning-of-life.txt history.txt
+ 1015  ls
+ 1016  code .
+ 1017  ls
+ 1005  cd codify
+ 1006  mkdir education
+ 1007  cd education
+ 1008  pwd
+ 1009  mkdir bash-assignment
+ 1010  cd bash-assignment
+ 1011  touch README.md
+ 1012  touch meaning-of-life.txt
+ 1013  ls
+ 1014  mv meaning-of-life.txt history.txt
+ 1015  ls
+ 1016  code .
+ 1017  ls
+ 1018  history | tail -n 200 >> history.txt
+ 1019  echo >> "Hello Bash"
+ 1020  echo >> "Hello Bash"
